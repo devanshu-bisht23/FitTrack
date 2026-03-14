@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "step_logs",
+  "info": {
+    "singularName": "step-log",
+    "pluralName": "step-logs",
+    "displayName": "StepLog"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "steps": {
+      "type": "integer",
+      "required": true
+    },
+    "calories": {
+      "type": "float"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}
