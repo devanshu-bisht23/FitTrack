@@ -90,10 +90,6 @@ const LiveSteps = () => {
 
       <Card>
 
-    {/* // <div className="page-container pt-6 pb-24">
-
-    //   <Card className="max-w-xl"> */}
-
         <h2 className="text-xl font-bold mb-4">👣 Live Step Tracker</h2>
 
         <div className="space-y-6">
