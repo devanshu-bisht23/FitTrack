@@ -85,7 +85,6 @@ const LiveSteps = () => {
   };
 
   return (
-
     <div className="page-container">
 
       <Card>
