@@ -7,7 +7,7 @@ const BottomNav = () => {
         {path: '/', label: 'Home', icon:Home},
         {path: '/food', label: 'Food', icon: Utensils},
         {path: '/activity', label: 'Activity', icon: Activity},
-        // {path: '/live-steps', label: 'Live Steps', icon: FootprintsIcon},
+        {path: '/live-steps', label: 'Live Steps', icon: FootprintsIcon},
         {path: '/profile', label: 'Profile', icon: User},
     ]
 
